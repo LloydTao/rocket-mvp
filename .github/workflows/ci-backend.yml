@@ -16,6 +16,8 @@ jobs:
   ci:
     name: Lint, build and test backend
     runs-on: ${{ matrix.os }}
+    env:
+      DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
 
     strategy:
       matrix:
