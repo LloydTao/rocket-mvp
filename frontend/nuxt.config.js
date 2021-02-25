@@ -25,6 +25,7 @@ export default {
       '~/components',
       '~/components/Navbars/',
       '~/components/Sidebars/',
+      '~/components/Tables/',
     ],
   },
 
