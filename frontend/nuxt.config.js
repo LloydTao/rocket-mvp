@@ -24,6 +24,7 @@ export default {
     dirs: [
       '~/components',
       '~/components/Navbars/',
+      '~/components/Sidebars/',
     ],
   },
 
